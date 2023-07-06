@@ -1,123 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memoria</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/login.css">
+
+  <script defer src="./js/login.js"></script>
+  <title>Memória</title>
 </head>
 
 <body>
-    <main>
-        <h1>Jogo da > Péssima < </h1>
 
-        <div class="controls">
-            <input type="checkbox" id="check1">
-            <input type="checkbox" id="check2">
-            <input type="checkbox" id="check3">
-            <input type="checkbox" id="check4">
-            <input type="checkbox" id="check5">
-            <input type="checkbox" id="check6">
-            <input type="checkbox" id="check7">
-            <input type="checkbox" id="check8">
-            <input type="checkbox" id="check9">
-            <input type="checkbox" id="check10">
-            <input type="checkbox" id="check11">
-            <input type="checkbox" id="check12">
-            <input type="checkbox" id="check13">
-            <input type="checkbox" id="check14">
-            <input type="checkbox" id="check15">
-            <input type="checkbox" id="check16">
-        </div>
+  <form class="login-form">
 
-        <div class="game">
-            <label for="check1" class="card card1">
-                <img src="Pics/am1.PNG" alt="card 2" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
+    <div class="login__header">
+        <!-- 
+      <img src="./images/logo.png" alt="logo">
+      <img src="./images/cerebro.jpg" alt="brain icon">
+      -->
+      <h1>Jogo da Memória</h1>
+    </div>
 
-            <label for="check2" class="card card2">
-                <img src="Pics/am2.PNG" alt="card 1" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
+    <input type="text" placeholder="Nome" class="login__input">
+    <button type="submit" class="login__button">Play</button>
 
-            <label for="check3" class="card card3">
-                <img src="Pics/am3.PNG" alt="card 3" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
+  </form>
 
-            <label for="check4" class="card card4">
-                <img src="Pics/am4.PNG" alt="card 4" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
 
-            <label for="check5" class="card card5">
-                <img src="Pics/am5.PNG" alt="card 5" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
 
-            <label for="check6" class="card card6">
-                <img src="Pics/am6.PNG" alt="card 6" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
+  <footer>
+    <p>Desenvolvido por: Pablo Cavalcante</p>
+  </footer>
 
-            <label for="check7" class="card card7">
-                <img src="Pics/am7.PNG" alt="card 7" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
-
-            <label for="check8" class="card card8">
-                <img src="Pics/am8.PNG" alt="card 8" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
-
-            <label for="check9" class="card card9">
-                <img src="Pics/am1.PNG" alt="card 1" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
-
-            <label for="check10" class="card card10">
-                <img src="Pics/am2.PNG" alt="card 2" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
-
-            <label for="check11" class="card card11">
-                <img src="Pics/am3.PNG" alt="card 3" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
-
-            <label for="check12" class="card card12">
-                <img src="Pics/am4.PNG" alt="card 4" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
-
-            <label for="check13" class="card card13">
-                <img src="Pics/am5.PNG" alt="card 5" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
-
-            <label for="check14" class="card card14">
-                <img src="Pics/am6.PNG" alt="card 6" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
-
-            <label for="check15" class="card card15">
-                <img src="Pics/am7.PNG" alt="card 7" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
-
-            <label for="check16" class="card card16">
-                <img src="Pics/am8.PNG" alt="card 8" class="card-front">
-                <img src="Pics/back.png" alt="card memory" class="card-back">
-            </label>
-
-            
-        </div>
-    </main>
 </body>
 
 </html>
